@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+main{
+  padding-top: 6.65rem;
+}
+
+
+
+ul,li,a,p,nav,figure,ol,h1,h2,h3,h4,h5,h6{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  color: unset;
+}
+
+
+@font-face {
+  font-family: Oswald-Medium;
+  src: url(./fonts/principales/Oswald-Medium.ttf);
+}
+@font-face {
+  font-family: Oswald-Regular;
+  src: url(./fonts/secundarias/Oswald-Regular.ttf);
+}
+@font-face {
+  font-family: Proximanova-Regular;
+  src: url(./fonts/principales/Proximanova-regular.otf);
+}
+@font-face {
+  font-family: Proximanova-Light;
+  src: url(./fonts/secundarias/Fontspring-DEMO-proximanova-light.otf);
+}
+@font-face {
+  font-family: Proximanova-Bold;
+  src: url(./fonts/secundarias/Fontspring-DEMO-proximanova-bold.otf);
+}

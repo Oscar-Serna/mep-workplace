@@ -1,0 +1,44 @@
+footer .social_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14rem;
+
+  padding: 6rem 2rem;
+  background-color: #FF40A1;
+}
+
+footer .logo img{
+  width: 7.5rem;
+}
+
+footer .social_media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social_media ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+footer .social_media li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social_media img{
+  width: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+
+  footer .logo{
+    display: none;
+  }
+
+}

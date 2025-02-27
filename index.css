@@ -1,0 +1,285 @@
+
+.hero_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_section img{
+  width: 100%;
+}
+
+.about_us_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem 0;
+}
+
+.about_information{
+  width: 68rem;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-direction: inherit;
+  gap: 3rem;
+}
+
+.about_information h3{
+  color: #FF81C2;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-family: Oswald-Regular;
+}
+.about_information p{
+  text-align: justify;
+  font-size: 18px;
+  opacity: .5;
+  font-family: Proximanova-Regular;
+}
+
+.about_windows{
+  width: 75rem;
+}
+.window_container{
+  width: inherit;
+  display: flex;
+  justify-content: center;
+}
+.window_container#first{
+  height: 39rem;
+}
+.window_container#second{
+  height: 30rem;
+}
+.window_container .image{
+    width: calc(75rem / 2);
+  }
+    .window_container .image img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+  .window_container .information{
+    width: calc(75rem / 2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #FF81C2;
+    padding: 3rem;
+  }
+  .window_container#second .information{
+    background-color: #FFA2D2;
+  }
+    .window_container#second .information h3{
+      font-size: 6.5rem;
+      line-height: 6.75rem;
+    }
+    .window_container .information h3{
+      color: #fff;
+      font-family: Oswald-Regular;
+      text-transform: uppercase;
+      letter-spacing: 1.75px;
+      line-height: 3.5rem;
+      font-size: 3.5rem;
+    }
+    .window_container .information p{
+      font-size: 18px;
+      font-family: Proximanova-Regular;
+    }
+    .window_container .information a input{
+      font-family: Proximanova-Regular;
+      font-size: 16px;
+      background-color: #fff;
+      color: #FF81C2;
+      border: none;
+      border-radius: 25px;
+      padding: .45rem 2rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 150ms ease;
+    }
+    .window_container#second .information a input{
+      background-color: #FF40A1;
+      color: #fff;
+    }
+    .window_container .information a input:hover{
+      background-color: #FF40A1;
+      color: #fff;
+    }
+    .window_container#second .information a input:hover{
+      background-color: #fff;
+      color: #FF40A1;
+    }
+
+.slogan_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 6rem 0;
+}
+  .slogan_section img{
+    width: 70rem;
+  }
+
+
+.form_banner{
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background: url(../images/MeP-Registro-fondo.png);
+  background-size: 100%;
+}
+
+.form_banner .form_section{
+  display: flex;
+  justify-content: center;
+}
+
+.form_banner .form_section .left{
+  width: 27.5rem;
+  color: #fff;
+  font-size: 38px;
+  letter-spacing: 1.75px;
+  font-family: Oswald-Regular;
+  background-color: #F98DC9;
+  display: flex;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+
+.form_banner .form_section .right{
+  width: 27.5rem;
+  background-color: #fff;
+  font-family: Proximanova-Light;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 2.5rem;
+}
+
+.form_banner .form_section .right form{
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: .65rem;
+}
+
+.form_banner .form_section .right .elements{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+
+}
+
+.form_banner .form_section .right .form_element{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.form_banner .form_section .right .form_element input, .form_banner .form_section .right .form_element textarea{
+  width: 100%;
+  border: 0;
+  background-color: #FDE4F2;
+  padding: .65rem;
+  font-family: Proximanova-Regular;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: rgba(0, 0, 0, 0);
+  transition: 150ms ease;
+}
+.form_banner .form_section .right .form_element input:hover, .form_banner .form_section .right .form_element textarea:hover{
+  border: 2px solid rgba(249, 141, 200, 0.35);
+}
+
+.form_banner .form_section .right .form_element input:focus, .form_banner .form_section .right .form_element textarea:focus{
+  border: 2px solid rgba(249, 141, 200, 1);
+}
+
+.form_banner .form_section .right .form_element textarea{
+  resize: none;
+}
+
+
+@media screen and (max-width: 480px) {
+
+
+
+.about_us_section{
+  padding: 3rem 0;
+}
+  .about_information{
+    width: 100%;
+    padding: 0 3rem;
+  }
+
+
+
+.about_windows{
+  width: 100%;
+}
+
+.window_container#first, .window_container#second{
+  height: auto;
+}
+
+.window_container .image{
+    display: none;
+  }
+
+
+.window_container .information{
+  width: 100%;
+}
+  .window_container .information h3
+  {
+    font-size: 2.75rem;
+  }
+  .window_container#second .information h3{
+    font-size: 4.5rem;
+    line-height: 5rem;
+  }
+
+
+.slogan_section{
+  padding: 5rem 3rem 6rem 3rem;
+}
+  .slogan_section img{
+    width: 100%;
+  }
+
+
+
+
+
+
+  .form_banner{
+    height: unset;
+    background: none;
+  }
+
+  .form_banner .form_section .left, .form_banner .form_section .right{
+    width: 100%;
+  }
+
+  .form_banner .form_section .left{
+    padding: 4rem 3rem;
+    font-size: 42px;
+  }
+
+  .form_section{
+    flex-direction: column;
+  }
+
+}
